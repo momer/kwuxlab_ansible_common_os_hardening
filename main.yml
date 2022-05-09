@@ -8,7 +8,7 @@
     - vars.yml
     - version.yml
   tags:
-    - kwuxlab_common_os_hardening
+    - kwuxlab_ansible_common_os_hardening
   pre_tasks:
     - name: Collect facts
       ansible.builtin.setup:
